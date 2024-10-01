@@ -1,29 +1,27 @@
 
 
 
-
-
 import React, { useState } from 'react';
 
 const Projects = () => {
-  // Project data with image URLs
+  
   const [projects, setProjects] = useState([
     {
       title: 'Refer Me Platform',
       description: 'Referral-based networking platform with OAuth 2.0 authentication. Achieved 300+ signups in 4 days and secured $2500 in funding.',
-      imageUrl: 'https://via.placeholder.com/80', // Placeholder image URL
+      imageUrl: 'https://i.imgur.com/mOP5PpR.jpeg', // Placeholder image URL
       isOpen: false
     },
     {
       title: 'Disaster Management Platform',
       description: 'Real-time disaster prediction using AI/ML, trained on 8000+ occurrences with live alerts and visualization maps.',
-      imageUrl: 'https://via.placeholder.com/80', // Placeholder image URL
+      imageUrl: 'https://i.imgur.com/KYAhn6t.png', // Placeholder image URL
       isOpen: false
     },
     {
       title: 'HandsHeard',
       description: 'Sign language translation using a TensorFlow model. Awarded honorary mention at DubHacks\'23 for its innovation in accessibility.',
-      imageUrl: 'https://via.placeholder.com/80', // Placeholder image URL
+      imageUrl: 'https://i.imgur.com/mhfh5LN.gif', // Placeholder image URL
       isOpen: false
     }
   ]);
