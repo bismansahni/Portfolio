@@ -6,13 +6,13 @@ const WorkExperience = () => {
     {
       title: 'Research Intern - Human In Mind Engineering Lab',
       description: 'Developed an AR application for cognitive training, leading to a 35% increase in user engagement and adoption rates.',
-      imageUrl: 'https://via.placeholder.com/80', // Placeholder image URL
+      imageUrl: 'https://i.imgur.com/rTaod8G.jpeg', // Placeholder image URL
       isOpen: false
     },
     {
       title: 'Software Developer - EPICS, ASU',
       description: 'Led the software development of the Jirani Digital Library, securing a $3,000 grant to expand digital literacy in Kenya, helping over 500 students gain access to remote education resources.',
-      imageUrl: 'https://via.placeholder.com/80', // Placeholder image URL
+      imageUrl: 'https://i.imgur.com/20fAWdX.jpeg', // Placeholder image URL
       isOpen: false
     }
   ]);
@@ -39,7 +39,7 @@ const WorkExperience = () => {
                   <img
                     src={experience.imageUrl}
                     alt={`${experience.title} Image`}
-                    className="w-12 h-12 object-cover rounded mr-4"
+                    className="w-12 h-12 object-contain rounded mr-4"
                   />
                   <h3 className="text-xl font-bold text-primary">{experience.title}</h3>
                 </div>

@@ -9,7 +9,7 @@ const CodeCollabSection = () => {
         <div className="flex items-center mb-6">
           {/* Club Logo */}
           <img
-            src="https://imgur.com/a/2dBpCt8.png" // Replace with your logo's path
+            src="https://i.imgur.com/knd6LYH.png" // Replace with your logo's path
             alt="CodeCollab Logo"
             className="w-16 h-16 object-cover mr-4"
           />
