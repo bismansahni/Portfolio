@@ -23,6 +23,12 @@ const Projects = () => {
       description: 'Sign language translation using a TensorFlow model. Awarded honorary mention at DubHacks\'23 for its innovation in accessibility.',
       imageUrl: 'https://i.imgur.com/mhfh5LN.gif', // Placeholder image URL
       isOpen: false
+    },
+    {
+      title: 'SaveMyData',
+      description: ' Client-side model to deter phishing attacks. Utilized a unique image protocol verified on the client side to prevent phishing attacks during logic processes.',
+      imageUrl: 'https://i.imgur.com/HJcxFHe.png', // Placeholder image URL
+      isOpen: false
     }
   ]);
 

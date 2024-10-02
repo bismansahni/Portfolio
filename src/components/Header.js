@@ -5,6 +5,7 @@ const Header = () => {
   return (
     <header className="bg-white shadow-sm py-10">
       <div className="container mx-auto max-w-3xl text-center">
+        
         {/* Name */}
         <h1 className="text-4xl font-bold mb-2">Bisman Sahni</h1>
 
